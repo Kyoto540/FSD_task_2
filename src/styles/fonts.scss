@@ -63,18 +63,3 @@
   src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../fonts/montserrat-v14-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-v14-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v14-latin_cyrillic-700.woff") format("woff"), url("../fonts/montserrat-v14-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/montserrat-v14-latin_cyrillic-700.svg#Montserrat") format("svg");
   /* Legacy iOS */
 }
-
-body {
-  background-color: #E5E5E5;
-  width: 1440px;
-  font-family: 'Montserrat	';
-  font-size: 19px;
-  font-weight: bold;
-}
-
-.block {
-  width: 1440px;
-  background-color: #fff;
-  margin: 0;
-  margin-bottom: 50px;
-}

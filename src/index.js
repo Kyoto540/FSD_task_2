@@ -1,5 +1,5 @@
 import './js/common'
-import './assets/styles/main.scss'
+import './styles/main.scss'
 
 console.log('index.js connected.')
 
