@@ -1,0 +1,145 @@
+@import "fonts.scss";
+@import "mixins.scss";
+@import "libs.scss";
+@import "vars.scss";
+@import "blocks.scss";
+
+//Colors const
+$dark_shade_100:#1F2041; 
+$dark_shade_75:rgba(31, 32, 65, 0.75); 
+$dark_shade_50:rgba(31, 32, 65, 0.5);
+$dark_shade_25:rgba(31, 32, 65, 0.25);
+$dark_shade_5:rgba(31, 32, 65, 0.05);
+$purple:#BC9CFF;
+$green:#6FCF97;
+
+.ui-kit-page{
+	width:1440px;
+	margin:0;
+}
+.colors-block__text{
+	font-family: 'Quicksand';
+	color: #1F2041;
+	font-size: 19px;
+	line-height: 29px;
+	margin-left:40px;
+	margin-top: 7px;
+}
+.colors-block{
+	position: absolute;
+	width: 269.26px;
+	height:610px;
+	left: 149.74px;
+	top: 145px;
+	padding:0;
+}
+.colors-block__item{
+	display:flex;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	margin-bottom: 20px;
+}
+.colors-block__square{
+width: 70px;
+height: 70px;
+border-radius: 6px;
+	&_shade-100{
+		background: $dark_shade_100;
+	}
+	&_shade-75{
+		background: $dark_shade_75;
+	}
+	&_shade-50{
+		background: $dark_shade_50;
+	}
+	&_shade-25{
+		background: $dark_shade_25;
+	}
+	&_shade-5{
+		background: $dark_shade_5;
+	}
+	&_purple{
+		background: $purple;
+	}
+	&_green{
+		background: $green;
+	}
+}
+.types-block{
+	position: absolute;
+	width: 403px;
+	height: 321px;
+	left: 846px;
+	top: 145px;
+	&__group{
+		margin-bottom: 50px;
+		display: flex;
+		&_last{
+			margin-bottom: 0;
+			margin-right: 35px;
+		}
+	}
+	&__item{
+		font-style: normal;
+		font-weight: normal;
+		color: $dark_shade_25;
+		font-family: 'Montserrat';
+		margin-right: 30px;
+		&_h1{
+			font-size: 24px;
+			line-height: 29px;
+			margin-left: 8px;
+		}
+		&_h2{
+			font-size: 19px;
+			line-height: 23px;
+			margin-left: 10px;
+		}
+		&_h3{
+			font-size: 12px;
+			line-height: 15px;
+			margin-left: 20px;
+		}
+		&_body{
+			font-size: 14px;
+			line-height: 24px;
+			margin-left: 0;
+		}
+	}
+	&__text{
+		&_h1{
+			font-family: Quicksand;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 30px;
+			color: $dark_shade_100;
+		}
+		&_h2{
+			font-family: Quicksand;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 19px;
+			line-height: 24px;
+			color: $dark_shade_100;
+		}
+		&_h3{
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 15px;
+			text-transform: uppercase;
+			color: $dark_shade_100;
+		}
+		&_body{
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 24px;
+			color: $dark_shade_75	;
+		}
+	}
+}

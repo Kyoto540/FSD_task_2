@@ -102,16 +102,6 @@ module.exports = {
 			}
 		}, 
 
-		//!   Before uncomment: $ npm install -D xml-loader and $ npm install -D csv-loader papaparse
-		//{
-		//	test: /\.xml$/,
-		//	use: ['xml-loader']
-		//}, 
-		//{
-		//	test: /\.csv$/,
-		//	use: ['csv-loader']
-		//},
-
 		{
 			test: /\.css$/,
 			use: cssLoaders()

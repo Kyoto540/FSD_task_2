@@ -1,5 +1,6 @@
 import './js/common'
 import './styles/main.scss'
+import './styles/colors&types.scss'
 
 console.log('index.js connected.')
 
