@@ -1,0 +1,30 @@
+.form-elements-body{
+	padding-top:140px;
+	padding-bottom: 131px;
+	padding-right: 141px;
+	padding-left: 140.5px;
+	margin:0;
+}
+.wrapper{
+	height:1400px;
+	margin:0;
+	padding:0;
+		&__column{
+		width:320px;
+		margin:0;
+		padding:0;
+		height:500px;
+		display: inline-block;
+		background: rgba(0,0,0,0.1);
+		&_left{
+
+		}
+		&_center{
+			margin-left: 126px;
+			margin-right: 72px;
+		}
+		&_right{
+			
+		}
+	}
+}
