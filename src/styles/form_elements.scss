@@ -1,3 +1,9 @@
+@import "../templates/common.blocks/text-field/text-field.scss";
+@import "../templates/common.blocks/text-field/__name/text-field__name.scss";
+@import "../templates/common.blocks/text-field/__mod/text-field__mod.scss";
+@import "../templates/common.blocks/text-field/__input/text-field__input.scss";
+
+
 .form-elements-body{
 	padding-top:140px;
 	padding-bottom: 131px;
@@ -6,25 +12,20 @@
 	margin:0;
 }
 .wrapper{
-	height:1400px;
+	width:1400px;
 	margin:0;
 	padding:0;
+	display: flex;
 		&__column{
 		width:320px;
 		margin:0;
 		padding:0;
-		height:500px;
-		display: inline-block;
+		display: flex;
+		flex-wrap: wrap;
 		background: rgba(0,0,0,0.1);
-		&_left{
-
-		}
 		&_center{
 			margin-left: 126px;
 			margin-right: 72px;
-		}
-		&_right{
-			
 		}
 	}
 }

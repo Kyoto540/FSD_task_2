@@ -7,5 +7,21 @@ html(lang="en")
 		img.toxin-logo(src='assets/img/toxin_logo.svg')
 		.wrapper
 			.wrapper__column_left.wrapper__column
+				.text-field
+					//
+						style явно задан, чтобы в PixPerf не было
+						расхождений с Figma по всей странице
+					.text-field__name(style='margin-top:3px')
+						| Text field
+					.text-field__mod
+						| Default
+					input.text-field__input(placeholder='Email')
+				.text-field
+					.text-field__name
+						| Text field
+					.text-field__mod
+						| Hover / focus
+					input.text-field__input(value='This is pretty awesome' placeholder='Empty field')
+
 			.wrapper__column_center.wrapper__column
 			.wrapper__column_right.wrapper__column
