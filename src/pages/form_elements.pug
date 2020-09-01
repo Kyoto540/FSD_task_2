@@ -6,7 +6,7 @@ html(lang="en")
 	body.form-elements-body
 		img.toxin-logo(src='assets/img/toxin_logo.svg')
 		.wrapper
-			.wrapper__column_left.wrapper__column
+			.wrapper__column
 				.text-field
 					//
 						style явно задан, чтобы в PixPerf не было
@@ -16,12 +16,23 @@ html(lang="en")
 					.text-field__mod
 						| Default
 					input.text-field__input(placeholder='Email')
-				.text-field
+				.text-field.marg_20
 					.text-field__name
 						| Text field
 					.text-field__mod
 						| Hover / focus
 					input.text-field__input(value='This is pretty awesome' placeholder='Empty field')
-
+				.text-field.marg_20
+					.text-field__name
+						| Dropdown
+					.text-field__mod
+						| Default
+					input.text-field__input(placeholder='Empty field')
+				.text-field.marg_20
+					.text-field__name
+						| Masked text field
+					.text-field__mod
+						| Default
+					input.text-field__input(placeholder='ДД.ММ.ГГГГ')
 			.wrapper__column_center.wrapper__column
-			.wrapper__column_right.wrapper__column
+			.wrapper__column
